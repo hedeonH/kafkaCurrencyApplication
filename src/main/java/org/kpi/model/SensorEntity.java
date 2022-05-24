@@ -2,7 +2,7 @@ package org.kpi.model;
 
 import javax.persistence.*;
 
-@Table(name = "metrics")
+@Table(schema = "sensor",name = "metrics")
 @Entity
 public class SensorEntity {
 
